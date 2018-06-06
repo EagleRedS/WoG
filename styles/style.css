@@ -8,6 +8,16 @@ body {
     text-align: right;
 }   /* Текст приветствия */
 
+.header_title_img {
+    display: inline-block;
+    margin: auto;
+}
+
+.header_title {
+    display: inline-block;
+    
+}
+
 h1 {      
     margin: 0;
     padding: 20px 0;
