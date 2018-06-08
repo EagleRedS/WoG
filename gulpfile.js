@@ -6,3 +6,7 @@ gulp.task('default', function () {
     .pipe(concatCSS('style.css'))
     .pipe(gulp.dest('./css'));
 });
+
+gulp.task('watch', function() {
+  gulp.watch('./assets/**/*.css', ['default'])
+})
